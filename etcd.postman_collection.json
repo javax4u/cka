@@ -1,0 +1,168 @@
+{
+	"info": {
+		"_postman_id": "359a9995-d841-4640-985f-d89e961f852f",
+		"name": "etcd",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26409273"
+	},
+	"item": [
+		{
+			"name": "version",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "keys",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "key=message",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "time",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "1342"
+				},
+				"url": {
+					"raw": "http://localhost:2379/v2/keys/time",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2379",
+					"path": [
+						"v2",
+						"keys",
+						"time"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "key=time",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:2379/v2/keys/time",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2379",
+					"path": [
+						"v2",
+						"keys",
+						"time"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deletable_stock",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "1342"
+				},
+				"url": {
+					"raw": "http://localhost:2379/v2/keys/time",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2379",
+					"path": [
+						"v2",
+						"keys",
+						"time"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deletable_stock",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:2379/v2/keys/time",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2379",
+					"path": [
+						"v2",
+						"keys",
+						"time"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deletable_stock",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:2379/v2/keys/deletable_stock",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2379",
+					"path": [
+						"v2",
+						"keys",
+						"deletable_stock"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deletable_stock",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:2379/v2/keys/time",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2379",
+					"path": [
+						"v2",
+						"keys",
+						"time"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

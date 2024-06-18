@@ -60,5 +60,25 @@ minikube start --driver=podman
 service --status-all
 ```
 
+### How can i download and play with etcd, like i used to with mysql
+
+[ETCD documentation site link will help](https://etcd.io/docs/v2.3/api/)
+
+### What is D in etcd
+according to their website documentation D means distributed and etc is taken from etc folder of linux where external libraries are kept
+
+### Can you show insert, update, delete and select function like in mysql.
+
+Yes follow this video
+
+### From where i can get installer and run it
+From github website go for release link
+
+## Error 
+### No help topic for 'version'
+
+
+
+
 
 
