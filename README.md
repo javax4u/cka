@@ -69,13 +69,18 @@ according to their website documentation D means distributed and etc is taken fr
 
 ### Can you show insert, update, delete and select function like in mysql.
 
-Yes follow this video
+Yes follow [this video](https://www.youtube.com/watch?v=emlPidXU3aU)
 
 ### From where i can get installer and run it
 From github website go for release link
 
 ## Error 
 ### No help topic for 'version'
+Solution: set ETCDCTL_API=3
+
+
+# CKA Exam Question Bank
+
 
 
 
