@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+
+metadata:
+  name: nginx-dev
+  labels:
+    run: nginx-dev
+
+spec:
+  nodeName: kind-worker
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+  containers:
+  - image: nginx
+    name: nginx-dev
+    resources: {}
+
+
+status: {}
